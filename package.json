@@ -1,23 +1,24 @@
 {
-  "name": "koa2-log-split",
+  "name": "node-logsplit",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moiamoia/koa2-log-split.git"
+    "url": "git+https://github.com/moiamoia/node-logsplit.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moiamoia/koa2-log-split/issues"
+    "url": "https://github.com/moiamoia/node-logsplit/issues"
   },
-  "homepage": "https://github.com/moiamoia/koa2-log-split#readme",
+  "homepage": "https://github.com/moiamoia/node-logsplit#readme",
   "dependencies": {
     "moment": "^2.22.2",
     "node-schedule": "^1.3.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
