@@ -2,11 +2,13 @@ const schedule = require('node-schedule')
 const moment = require('moment')
 const fs = require('fs')
 
-module.exports =  ({
-    folder = './logs',
-    hour = 0,
-    minute = 1,
-})=>{
+module.exports =  (app={})=>{
+
+    const {
+        folder = './logs',
+        hour = 0,
+        minute = 1,
+    } = app
 
     schedule.scheduleJob({
         hour,
